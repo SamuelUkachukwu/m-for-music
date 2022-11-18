@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rubik+Distressed&display=swap');
+
+header {
+    margin: 0;
+
+}
+h1 {
+    font-family: 'Rubik Distressed', cursive, sans-serif;
+    font-size: 100px;
+    color: brown;
+    margin: 50px;
+}
+#logo {
+    background: url("../images/musiclogo.gif");
+    background-position: right;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+
+}
