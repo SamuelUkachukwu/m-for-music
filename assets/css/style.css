@@ -1,22 +1,143 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rubik+Distressed&display=swap');
 
-header {
-    margin: 0;
+* {
 
+    padding: 0;
+    border: none;
 }
-h1 {
+/* ..................................................section1  style index Html.......................................... */
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: rgb(13, 15, 13);
+    background-color: rgba(93, 247, 147, 0.76);
+}
+ 
+
+.headding {
     font-family: 'Rubik Distressed', cursive, sans-serif;
-    font-size: 100px;
+    font-size: 150px;
     color: brown;
     margin: 50px;
+
 }
+
 #logo {
     background: url("../images/musiclogo.gif");
-    background-position: right;
+    background-position: center;
     background-repeat: no-repeat;
     min-height: 400px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 
+}
+
+/* navigation elements*/
+.navbar{
+    background-color: aquamarine;
+}
+
+.nav-list {
+    font-size: 17px;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-right: 20px;
+
+    float: right;
+    position: absolute;
+    right: 0;
+    padding-top: 25px;
+
+}
+
+.nav-list a {
+    text-decoration: none;
+}
+
+.nav-list li {
+    float: left;
+    list-style-type: none;
+    margin-left: 20px;
+
+}
+
+/*first background image*/
+#first-image {
+    background: url('..//image/cover-chilli-copy.webp')no-repeat center center;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+
+}
+
+
+/* container styling*/
+#container {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    width: 100%;
+    height: 100%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 127, 223);
+    align-items: center;
+    background-color: rgba(229, 238, 234, 0.6);
+    transition: transform .3s;
+}
+
+
+#container li {
+    font-family: Spectral, sans-serif;
+    letter-spacing: 2px;
+    list-style-type: none;
+   
+}
+
+#container h3 {
+    text-align: center;
+    font-size: 34px;
+    line-height: 40px;
+    color: rgb(16, 16, 88);
+}
+
+#container h4 {
+    text-align: center;
+    font-size: 125%;
+    color: rgb(16, 16, 88);
+
+}
+
+#container h2 {
+    font-size: 45px;
+    line-height: 49px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: rgb(13, 80, 26);
+    padding: 0 40px;
+    text-align: center;
+}
+
+#container > ul {
+    padding: 0 40px;
+}
+/* ----------footer style -------------- */
+.profile > ul {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.profile i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 8%;
+    color: rgb(68, 0, 255);
 }
