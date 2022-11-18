@@ -18,6 +18,8 @@ body {
  }
  .hero-text {
     position: absolute;
+    bottom: 35%;
+    /* left: 15%; */
  }
 .hero-div {
  height: 100vh;
@@ -31,6 +33,10 @@ body {
     margin: 50px;
 
 }
+.btn-box {
+    bottom: 10%;
+    position: absolute;
+}
 img {
     max-height: 350px;
 }
@@ -43,6 +49,38 @@ img {
     justify-content: space-evenly;
     align-content: center;
 } */
+
+  
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    /* position: absolute; */
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+
+
+
+
+
+
 
 /* Color Theme Swatches in Hex */
 .Copy-of-Music-Technolgy-1-hex { color: #0684F5; }
