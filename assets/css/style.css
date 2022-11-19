@@ -10,7 +10,8 @@ body {
     /* font-family: 'Poppins', sans-serif;
     font-size: medium;
     color: rgb(13, 15, 13); */
-    background-color: rgba(247, 234, 93, 0.76);
+    background-color: #FFC600;
+
 }
  .hero {
     /* height: 100vh; */
@@ -74,17 +75,9 @@ img {
   .tooltip:hover .tooltiptext {
     visibility: visible;
   }
+/* -------- login page -------- */
+.log-img {
+   
+    
 
-
-
-
-
-
-
-
-/* Color Theme Swatches in Hex */
-.Copy-of-Music-Technolgy-1-hex { color: #0684F5; }
-.Copy-of-Music-Technolgy-2-hex { color: #3A2197; }
-.Copy-of-Music-Technolgy-3-hex { color: #b253d5; }
-.Copy-of-Music-Technolgy-4-hex { color: #03DBF2; }
-.Copy-of-Music-Technolgy-5-hex { color: #00274B; }
+}
